@@ -16,7 +16,7 @@
   }
 
   &__body {
-    padding: 18px 16px 20px;
+    padding: 22px 18px 20px;
     display: flex;
     flex-direction: column;
     gap: 12px;
@@ -37,12 +37,24 @@
     color: $text-color;
   }
 
-  &__description {
+  &__code {
     margin: 0;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 1.5;
     color: $muted-color;
-    min-height: 56px;
+  }
+
+  &__info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  &__reviews {
+    margin: 0;
+    font-size: 12px;
+    color: $muted-color;
   }
 
   &__footer {
@@ -50,6 +62,19 @@
     justify-content: space-between;
     align-items: center;
     gap: 12px;
+  }
+
+  &__price-label {
+    margin: 0;
+    font-size: 12px;
+    color: $muted-color;
+  }
+
+  &__price-value {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+    color: $text-color;
   }
 
   &__buy {
